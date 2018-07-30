@@ -710,7 +710,7 @@ td.calendrier-jour.weekend {
 }
 
 td.calendrier-jour.ferie {
-    background: #6fb2bc;
+    background: #6fb2bc !important;
 }
 
 td.calendrier-jour.fermeture {
