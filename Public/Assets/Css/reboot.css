@@ -75,7 +75,8 @@ a {
     border-color: transparent
 }
 #toolbar {
-    background: #009ec5
+    /*background: #009ec5*/
+    background: rgb(13,75,112)
 }
 #toolbar .main-header {
     position: relative
@@ -105,7 +106,8 @@ a {
     line-height: 60px;
     padding: 0 20px;
     text-align: center;
-    background: #009ec5;
+    /*background: #009ec5;*/
+    background: rgb(13,75,112);
     border-bottom: solid 1px #0098bd
 }
 #toolbar .brand a:hover {
@@ -594,11 +596,13 @@ footer {
 }
 
 .menu-link:hover i {
-    color: #076791;
+    /*color: #076791;*/
+    color: rgba(228,6,47,.5);
 }
 
 .menu-link.active i {
-    color: #05415C;
+    /*color: #05415C;*/
+    color: rgb(228,6,47);
 }
 
 @media screen and (min-width: 768px){
@@ -718,7 +722,19 @@ td.calendrier-jour.horsMois {
 }
 
 td.calendrier-jour.conge_all.conge_ok {
+    background: #a41abc;
+}
+/* congé payé */
+td.calendrier-jour.conge_all.conge_ok.type_1 {
     background: #1ABC9C;
+}
+/* rtt */
+td.calendrier-jour.conge_all.conge_ok.type_2 {
+    background: #bca91a;
+}
+/* sans solde */
+td.calendrier-jour.conge_all.conge_ok.type_14 {
+    background: #bc1a1a;
 }
 
 td.calendrier-jour.echange_all {
