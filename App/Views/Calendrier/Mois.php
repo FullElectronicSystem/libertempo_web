@@ -55,3 +55,17 @@ require_once VIEW_PATH . 'Calendrier.php';
         <?php endforeach ?>
     </table>
 </div>
+<h2>Legende</h2>
+<div>
+    <table id="legende">
+    <tr><td style="padding:20px"></td></tr>
+    <tr><td class="calendrier-jour "></td><td>Jour travaillé</td></tr>
+    <tr><td class="calendrier-jour ferie"></td><td>Jour férié</td></tr>
+    <tr><td class="calendrier-jour weekend"></td><td>Weekend</td></tr>
+    <tr><td></td></tr>
+    <tr><td class="calendrier-jour conge_all conge_ok type_1"></td><td>Congé payé</td></tr>
+    <tr><td class="calendrier-jour conge_all conge_ok type_2"></td><td>RTT</td></tr>
+    <tr><td class="calendrier-jour conge_all conge_ok type_14"></td><td>Sans solde</td></tr>
+    <tr><td class="calendrier-jour conge_all conge_ok type_99"></td><td>Autre</td></tr>
+    </table>
+</div>
