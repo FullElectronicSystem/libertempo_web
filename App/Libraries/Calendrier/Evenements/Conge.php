@@ -46,6 +46,8 @@ class Conge
                     'employe' => $jour['p_login'],
                     'demiJournee' => '*',
                     'statut' => $jour['p_etat'],
+                    'type' => $jour['p_type'],
+                    'ta_libelle' => $jour['ta_libelle'],
                 ];
             }
 
@@ -54,12 +56,16 @@ class Conge
                 'employe' => $jour['p_login'],
                 'demiJournee' => $this->getDemiJourneeDebut($jour['p_date_deb'], $jour['p_demi_jour_deb'], $jour['p_date_fin'], $jour['p_demi_jour_fin']),
                 'statut' => $jour['p_etat'],
+                'type' => $jour['p_type'],
+                'ta_libelle' => $jour['ta_libelle'],
             ];
             if ($jour['p_date_fin'] !== $jour['p_date_deb']) {
                 $conges[$jour['p_date_fin']][] = [
                     'employe' => $jour['p_login'],
                     'demiJournee' => $this->getDemiJourneeFin($jour['p_date_deb'], $jour['p_demi_jour_deb'], $jour['p_date_fin'], $jour['p_demi_jour_fin']),
                     'statut' => $jour['p_etat'],
+                    'type' => $jour['p_type'],
+                    'ta_libelle' => $jour['ta_libelle'],
                 ];
             }
         }
