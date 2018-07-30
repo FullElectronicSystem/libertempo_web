@@ -277,7 +277,7 @@ CREATE TABLE IF NOT EXISTS `conges_users` (
   `u_num_exercice` int(2) NOT NULL DEFAULT '0',
   `planning_id` int(11) UNSIGNED NOT NULL,
   `u_heure_solde` int(11) NOT NULL DEFAULT '0',
-  `date_inscription` DATETIME NOT NULL DEFAULT NOW(),
+  `date_inscription` DATETIME NOT NULL,
   `token` VARCHAR(100) NOT NULL DEFAULT '',
   `date_last_access` DATETIME NOT NULL,
   PRIMARY KEY (`u_login`),
@@ -438,9 +438,11 @@ INSERT IGNORE INTO `conges_type_absence` VALUES (2, 'conges', 'rtt', 'rtt');
 INSERT IGNORE INTO `conges_type_absence` VALUES (3, 'absences', 'formation', 'fo');
 INSERT IGNORE INTO `conges_type_absence` VALUES (4, 'absences', 'mission', 'mi');
 INSERT IGNORE INTO `conges_type_absence` VALUES (5, 'absences', 'autre', 'ab');
-INSERT IGNORE INTO `conges_type_absence` VALUES (6, 'absences', 'malade', 'mal');
+#INSERT IGNORE INTO `conges_type_absence` VALUES (6, 'absences', 'malade', 'mal');
 INSERT IGNORE INTO `conges_type_absence` VALUES (11, 'conges_exceptionnels', 'enfant malade', 'enf');
 INSERT IGNORE INTO `conges_type_absence` VALUES (12, 'conges_exceptionnels', 'maladie', 'mal');
+INSERT IGNORE INTO `conges_type_absence` VALUES (14, 'conges_exceptionnels', 'sans solde', 'ss');
+INSERT IGNORE INTO `conges_type_absence` VALUES (15, 'absences', 'deplacement', 'dep');
 
 #
 # Contenu de la table `conges_mail`
