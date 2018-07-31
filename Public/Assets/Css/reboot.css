@@ -754,7 +754,39 @@ td.calendrier-jour.conge_all.conge_demande, td.calendrier-jour.conge_all.conge_v
 }
 
 td.calendrier-jour.conge_am.conge_ok {
+    background: linear-gradient(90deg, #a41abc 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_1 {
     background: linear-gradient(90deg, #1ABC9C 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_2 {
+    background: linear-gradient(90deg, #bca91a 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_14 {
+    background: linear-gradient(90deg, #bc1a1a 50%, rgba(255,0,0,0) 50%);
+}
+
+/* association de deux demi journées */
+td.calendrier-jour.conge_am.conge_ok.conge_pm.conge_ok {
+    background: linear-gradient(0deg, #a41abc 50%, #a41abc 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_1.conge_pm.conge_ok {
+    background: linear-gradient(0deg, #1ABC9C 50%, #a41abc 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_2.conge_pm.conge_ok {
+    background: linear-gradient(0deg, #bca91a 50%, #a41abc 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_14.conge_pm.conge_ok {
+    background: linear-gradient(0deg, #bc1a1a 50%, #a41abc 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_1.conge_pm.conge_ok.type_2 {
+    background: linear-gradient(0deg, #1ABC9C 50%, #bca91a 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_1.conge_pm.conge_ok.type_14 {
+    background: linear-gradient(0deg, #1ABC9C 50%, #bc1a1a 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_2.conge_pm.conge_ok.type_14 {
+    background: linear-gradient(0deg, #bca91a 50%, #bc1a1a 50%);
 }
 
 td.calendrier-jour.conge_am.conge_demande, td.calendrier-jour.conge_am.conge_valid {
@@ -762,7 +794,16 @@ td.calendrier-jour.conge_am.conge_demande, td.calendrier-jour.conge_am.conge_val
 }
 
 td.calendrier-jour.conge_pm.conge_ok {
+    background: linear-gradient(90deg, rgba(255,0,0,0) 50%,  #a41abc 50%);
+}
+td.calendrier-jour.conge_pm.conge_ok.type_1 {
     background: linear-gradient(90deg, rgba(255,0,0,0) 50%,  #1ABC9C 50%);
+}
+td.calendrier-jour.conge_pm.conge_ok.type_2 {
+    background: linear-gradient(90deg, rgba(255,0,0,0) 50%,  #bca91a 50%);
+}
+td.calendrier-jour.conge_pm.conge_ok.type_14 {
+    background: linear-gradient(90deg, rgba(255,0,0,0) 50%,  #bc1a1a 50%);
 }
 
 td.calendrier-jour.conge_pm.conge_demande, td.calendrier-jour.conge_pm.conge_valid {
