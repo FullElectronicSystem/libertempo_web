@@ -739,7 +739,7 @@ td.calendrier-jour.conge_all.conge_ok.type_14 {
 /* teletravail */
 td.calendrier-jour.conge_all.conge_ok.type_16 {
     background-image: url("house.png");
-    background-size:     cover;
+    background-size:     contain;
     background-repeat:   no-repeat;
     background-position: center center;
 }

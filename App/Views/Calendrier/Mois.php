@@ -66,6 +66,7 @@ require_once VIEW_PATH . 'Calendrier.php';
     <tr><td class="calendrier-jour conge_all conge_ok type_1"></td><td>Congé payé</td></tr>
     <tr><td class="calendrier-jour conge_all conge_ok type_2"></td><td>RTT</td></tr>
     <tr><td class="calendrier-jour conge_all conge_ok type_14"></td><td>Sans solde</td></tr>
+    <tr><td class="calendrier-jour conge_all conge_ok type_16"></td><td>Télétravail</td></tr>
     <tr><td class="calendrier-jour conge_all conge_ok type_99"></td><td>Autre</td></tr>
     </table>
 </div>
