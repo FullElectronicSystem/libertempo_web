@@ -736,6 +736,13 @@ td.calendrier-jour.conge_all.conge_ok.type_2 {
 td.calendrier-jour.conge_all.conge_ok.type_14 {
     background: #bc1a1a;
 }
+/* teletravail */
+td.calendrier-jour.conge_all.conge_ok.type_16 {
+    background-image: url("house.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
 
 td.calendrier-jour.echange_all {
     background: #d5ff2b;
