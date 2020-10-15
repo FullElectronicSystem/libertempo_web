@@ -443,6 +443,7 @@ INSERT IGNORE INTO `conges_type_absence` VALUES (11, 'conges_exceptionnels', 'en
 INSERT IGNORE INTO `conges_type_absence` VALUES (12, 'conges_exceptionnels', 'maladie', 'mal');
 INSERT IGNORE INTO `conges_type_absence` VALUES (14, 'conges_exceptionnels', 'sans solde', 'ss');
 INSERT IGNORE INTO `conges_type_absence` VALUES (15, 'absences', 'deplacement', 'dep');
+INSERT IGNORE INTO `conges_type_absence` VALUES (16, 'absences', 'teletravail', 'tt');
 
 #
 # Contenu de la table `conges_mail`
