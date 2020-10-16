@@ -58,6 +58,7 @@ require_once VIEW_PATH . 'Calendrier.php';
 <h2>Legende</h2>
 <div>
     <table id="legende">
+    <tr><td colspan="2"><button onclick="window.location.reload(true)">CLEAR CACHE</button></td></tr>
     <tr><td style="padding:20px"></td></tr>
     <tr><td class="calendrier-jour "></td><td>Jour travaillé</td></tr>
     <tr><td class="calendrier-jour ferie"></td><td>Jour férié</td></tr>
