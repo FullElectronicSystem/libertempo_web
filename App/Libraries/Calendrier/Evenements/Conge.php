@@ -144,7 +144,6 @@ class Conge
                 \App\Models\Conge::STATUT_PREMIERE_VALIDATION
             ]);
         }
-        /* On prend plus pour le début en cas de congés débordant sur deux mois */
         $req = 'SELECT *
                 FROM conges_periode CP
                     INNER JOIN conges_type_absence CTA ON (CP.p_type = CTA.ta_id)
