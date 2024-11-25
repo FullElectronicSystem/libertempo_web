@@ -148,7 +148,7 @@ class Conge
         $req = 'SELECT *
                 FROM conges_periode CP
                     INNER JOIN conges_type_absence CTA ON (CP.p_type = CTA.ta_id)
-                WHERE p_date_deb >= "' . $dateDebut->modify('-1 month')->format('Y-m-d') . '"
+                WHERE p_date_fin >= "' . $dateDebut->format('Y-m-d') . '"
                     AND p_date_deb <= "' . $dateFin->format('Y-m-d') . '"
                     AND p_login IN ("' . implode('","', $utilisateursATrouver) . '")
                     AND p_etat IN ("' . implode('","', $etats) . '")
