@@ -744,17 +744,48 @@ td.calendrier-jour.conge_all.conge_ok {
     --type-16-color: var(--type-autre-color);           /* télétravail */
     --type-17-color: var(--type-autre-color);           /* récupération */
 }
-/* congé payé */
 td.calendrier-jour.conge_all.conge_ok.type_1 {
-    background: var(--type-1-color);
+    background-color: var(--type-1-color);
 }
-/* rtt */
+
 td.calendrier-jour.conge_all.conge_ok.type_2 {
-    background: var(--type-2-color);
+    background-color: var(--type-2-color);
 }
-/* sans solde */
+
+td.calendrier-jour.conge_all.conge_ok.type_3 {
+    background-color: var(--type-3-color);
+}
+
+td.calendrier-jour.conge_all.conge_ok.type_4 {
+    background-color: var(--type-4-color);
+}
+
+td.calendrier-jour.conge_all.conge_ok.type_5 {
+    background-color: var(--type-5-color);
+}
+
+td.calendrier-jour.conge_all.conge_ok.type_11 {
+    background-color: var(--type-11-color);
+}
+
+td.calendrier-jour.conge_all.conge_ok.type_12 {
+    background-color: var(--type-12-color);
+}
+
 td.calendrier-jour.conge_all.conge_ok.type_14 {
-    background: #bc1a1a;
+    background-color: var(--type-14-color);
+}
+
+td.calendrier-jour.conge_all.conge_ok.type_15 {
+    background-color: var(--type-15-color);
+}
+
+td.calendrier-jour.conge_all.conge_ok.type_16 {
+    background-color: var(--type-16-color);
+}
+
+td.calendrier-jour.conge_all.conge_ok.type_17 {
+    background-color: var(--type-17-color);
 }
 /* teletravail */
 td.calendrier-jour.conge_all.conge_ok.type_16 {
