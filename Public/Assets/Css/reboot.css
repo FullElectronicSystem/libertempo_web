@@ -811,8 +811,9 @@ td.calendrier-jour.conge_all.conge_demande, td.calendrier-jour.conge_all.conge_v
     background: rgba(26, 188, 156, 0.5);
 }
 
+/* que le matin */
 td.calendrier-jour.conge_am.conge_ok {
-    background: linear-gradient(90deg, #a41abc 50%, rgba(255,0,0,0) 50%);
+    background: linear-gradient(90deg, var(--type-autre-color) 50%, rgba(255,0,0,0) 50%);
 }
 td.calendrier-jour.conge_am.conge_ok.type_1 {
     background: linear-gradient(90deg, var(--type-1-color) 50%, rgba(255,0,0,0) 50%);
@@ -820,8 +821,32 @@ td.calendrier-jour.conge_am.conge_ok.type_1 {
 td.calendrier-jour.conge_am.conge_ok.type_2 {
     background: linear-gradient(90deg, var(--type-2-color) 50%, rgba(255,0,0,0) 50%);
 }
+td.calendrier-jour.conge_am.conge_ok.type_3 {
+    background: linear-gradient(90deg, var(--type-3-color) 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_4 {
+    background: linear-gradient(90deg, var(--type-4-color) 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_5 {
+    background: linear-gradient(90deg, var(--type-5-color) 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_11 {
+    background: linear-gradient(90deg, var(--type-11-color) 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_12 {
+    background: linear-gradient(90deg, var(--type-12-color) 50%, rgba(255,0,0,0) 50%);
+}
 td.calendrier-jour.conge_am.conge_ok.type_14 {
-    background: linear-gradient(90deg, #bc1a1a 50%, rgba(255,0,0,0) 50%);
+    background: linear-gradient(90deg, var(--type-14-color) 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_15 {
+    background: linear-gradient(90deg, var(--type-15-color) 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_16 {
+    background: linear-gradient(90deg, var(--type-16-color) 50%, rgba(255,0,0,0) 50%);
+}
+td.calendrier-jour.conge_am.conge_ok.type_17 {
+    background: linear-gradient(90deg, var(--type-17-color) 50%, rgba(255,0,0,0) 50%);
 }
 
 /* association de deux demi journées */
