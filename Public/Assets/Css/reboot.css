@@ -732,17 +732,17 @@ td.calendrier-jour.conge_all.conge_ok {
 
     --type-1-color: #1ABC9C;                         /* congé payé */
     --type-2-color: #bca91a;                         /* RTT */
-    --type-3-color: var(--type-autre-color)            /* formation */
-    --type-4-color: var(--type-autre-color)            /* mission */
-    --type-5-color: var(--type-autre-color)            /* autre */
+    --type-3-color: var(--type-autre-color);           /* formation */
+    --type-4-color: var(--type-autre-color);           /* mission */
+    --type-5-color: var(--type-autre-color);           /* autre */
 
-    --type-11-color: var(--type-ss-color)               /* Enfant malade */
-    --type-12-color: var(--type-ss-color)               /* Maladie */
+    --type-11-color: var(--type-ss-color);              /* Enfant malade */
+    --type-12-color: var(--type-ss-color);              /* Maladie */
 
-    --type-14-color: var(--type-ss-color)               /* Sans Soldes */
-    --type-15-color: var(--type-autre-color)            /* déplacement */
-    --type-16-color: var(--type-autre-color)            /* télétravail */
-    --type-17-color: var(--type-autre-color)            /* récupération */
+    --type-14-color: var(--type-ss-color);              /* Sans Soldes */
+    --type-15-color: var(--type-autre-color);           /* déplacement */
+    --type-16-color: var(--type-autre-color);           /* télétravail */
+    --type-17-color: var(--type-autre-color);           /* récupération */
 }
 /* congé payé */
 td.calendrier-jour.conge_all.conge_ok.type_1 {
